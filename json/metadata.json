@@ -1,0 +1,93 @@
+[
+  {
+    "title": "Introduction",
+    "subtitle": "Learn FM8's inner workings from the ground up.",
+    "description": "This is a test blog post to demonstrate how to use the marked library with custom plugins.",
+    "image": "./assets/1.1fig1.jpg",
+    "url": "./0-introduction.html",
+    "author": "Your Name",
+    "nextArticle": "./1-basics.html",
+    "datePublished": "June 11, 2024"
+  },
+  {
+    "title": "Learn FM Synthesis Fast",
+    "subtitle": "Daunted by the complexity of FM synthesis? Here are a few tips for speeding up your training.",
+    "image": "./assets/1.1fig1.jpg",
+    "url": "./2-additive-synthesis.html",
+    "author": "Corbbin Goldsmith",
+    "datePublished": "June 11, 2024"
+  },
+  {
+    "title": "Learn Sound Design",
+    "subtitle": "Why you should learn sound design in 2024",
+    "description": "This is how you can become a pro sound designer in 2024 using FM synthesis.",
+    "image": "./assets/1.1fig1.jpg",
+    "url": "./learn-sound-design.html",
+    "author": "Your Name",
+    "datePublished": "June 11, 2024"
+  },
+  {
+    "title": "Home",
+    "subtitle": "You landed yourself here. Now let me help you.",
+    "description": "This is a test blog post to demonstrate how to use the marked library with custom plugins.",
+    "image": "/assets/1.1fig1.png",
+    "url": "/",
+    "author": "Your Name",
+    "datePublished": "July 22, 2024"
+  },
+  {
+    "title": "Additive Synthesis",
+    "subtitle": "Discover the magic of the combination of waves and how adding them together makes sounds.",
+    "description": "This is a test blog post to demonstrate how to use the marked library with custom plugins.",
+    "image": "./assets/1.1fig1.jpg",
+    "url": "./2-additive-synthesis.html",
+    "author": "Your Name",
+    "datePublished": "June 11, 2024"
+  },
+  {
+    "title": "TEST BLOG POST",
+    "subtitle": "See the functionality of this library in a single file",
+    "description": "This is a test blog post to demonstrate how to use the marked library with custom plugins.",
+    "image": "./assets/1.1fig1.jpg",
+    "url": "./test.html",
+    "author": "Your Name",
+    "datePublished": "June 11, 2024"
+  },
+  {
+    "title": "Basics",
+    "subtitle": "What is FM? All your questions answered here.",
+    "description": "Learn the basics of FM8's capabilities and who uses it.",
+    "image": "./assets/1.1fig1.jpg",
+    "url": "./1-basics.html",
+    "author": "Your Name",
+    "nextArticle": "./2-additive-synthesis.html",
+    "datePublished": "June 11, 2024"
+  },
+  {
+    "title": "Summary",
+    "subtitle": "An overview of the lessons covered.",
+    "description": "This is a test blog post to demonstrate how to use the marked library with custom plugins.",
+    "image": "./assets/1.1fig1.jpg",
+    "url": "./2-additive-synthesis.html",
+    "author": "Your Name",
+    "datePublished": "June 11, 2024"
+  },
+  {
+    "title": "Marked Formats",
+    "subtitle": "See the functionality of this library in a single file",
+    "description": "This is a test blog post to demonstrate how to use the marked library with custom plugins.",
+    "image": "./assets/1.1fig1.png",
+    "url": "./marked-formats.html",
+    "author": "Your Name",
+    "datePublished": "June 11, 2024"
+  },
+  {},
+  {
+    "title": "What is an Operator?",
+    "subtitle": "Daunted by the complexity of FM synthesis? Here are a few tips for speeding up your training.",
+    "image": "./assets/1.1fig1.jpg",
+    "url": "/what-is-an-operator.html",
+    "author": "Corbbin Goldsmith",
+    "datePublished": "July 22, 2024"
+  }
+]

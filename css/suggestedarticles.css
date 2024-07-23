@@ -1,0 +1,38 @@
+#suggested {
+	display: grid;
+	gap: 10px;
+}
+
+#suggested > :not(:last-child) {
+	padding-bottom: 1em;
+	border-bottom: 1px solid #eee;
+}
+
+.suggested-article {
+	padding: 0px;
+	font-size: .75em;
+	font-family: "Inter";
+}
+
+.suggested-article a {
+	color: #000;
+	text-decoration: none;
+}
+
+
+.suggested-article p {
+	margin: 0;
+}
+
+.suggested-article h3{
+	text-decoration: none;
+	margin-top: 0;
+}
+
+.suggested-article > a > :not(:last-child) {
+	margin-bottom: .16em;
+}
+
+.suggested-article small {
+	color: #888;
+}

@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body {
+	background-color: #fff;
+	font-size: 1em;
+	font-family: "Inter";
+	padding: 0px;
+}
+
+html, body {
+	margin: 0px;
+}
+
+header {
+	padding: 1em;
+	background-color: #fff;
+	border-bottom: 1px solid #eee;
+	display: flex;
+}
+
+header a {
+	color: #000;
+	text-decoration: none;
+}
+
+header > nav {
+	flex-grow: 1;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+header nav a .line {
+	border-bottom: 1px solid black;
+	margin-bottom: -1px;
+	width: 0%;
+	transition: all 0.25s;
+}
+
+#nextWrapper h2 {
+	padding-bottom: .5em;
+}
+
+#nextWrapper {
+	padding-bottom: 2em;
+}
+
+#next {
+	border: 2px dashed gray;
+	padding: .25em;
+	border-radius: .24em;
+	background-color: #FF02;
+}
+
+#next h3::before {
+	content: ">>> ";
+}
+
+header nav a:hover .line {
+	width: 100%;
+}
+
+footer {
+	padding:1em;
+}
+
+footer > p {
+	margin: 0;
+}
+
+nav > a {
+	padding: 5px;
+}
+
+header h1,h2,h3,h4 {
+	margin: 0px;
+}
+
+main {
+	font-family: "IBM Plex Serif";
+	padding: 10px;
+	font-size: 1.25rem;
+	gap: 40px;
+}
+
+main > aside {
+	min-width: 450px;
+}
+
+main > aside > :not(:last-child) {
+	padding-bottom: 1em;
+}
+
+article {
+	width: calc(100% - 450px);
+}
+
+article p, article div{
+	line-height: 1.5em;
+}
+
+article img {
+	width: 100%;
+	height: auto;
+	display: block;
+	margin: 20px 0;
+}
+
+.table-wrapper {
+	max-width: 100%;
+	overflow-x: auto;
+	border-right: 1px solid gray;
+}
+
+table {
+	max-width: 100%;
+	font-size: .75em;
+	font-family: "Inter";
+	border-collapse: collapse;
+}
+
+th, td {
+	border: 1px solid gray;
+	padding: 4px;
+	text-align: left;
+}
+
+th {
+	font-weight: bold;
+}
+
+
+article h1:first-of-type {
+    font-size: 3em; /* Adjust this value as needed */
+    font-weight: bold;
+    margin: 0;
+}
+
+article h1:first-of-type + h2 {
+	font-size: 1.24em;
+	color: #444;
+}
+
+blockquote {
+	border-left: 4px solid black;
+	padding-left: 16px;
+	margin: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	main {
+		margin: auto;
+		padding-top: 60px;
+		max-width: 1200px;
+
+	}
+
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+	main {
+		margin: auto;
+		padding-top: 80px;
+		max-width: 900px;
+	}
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	main {
+		margin: auto;
+		padding-top: 80px;
+		display: flex;
+		max-width: 1200px;
+	}
+}
+
+/* --------------------- CUSTOM STYLING ---------------------- */
+
+
+.btn {
+	padding: .25rem .5rem;
+	border: 1px solid black;
+	display: inline-block;
+	border-radius: .25rem;
+}
+
+.btn-light {
+	background-color: none;
+}
+
+.btn-dark {
+	background-color: #000;
+	color: white;
+}
+
+
+
+
+
+
+

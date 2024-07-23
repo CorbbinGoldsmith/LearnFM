@@ -1,0 +1,15 @@
+.note {
+	font-size: .75em;
+	padding-left: 12px;
+	font-family: "Inter";
+}
+
+.markdown-alert-important {
+	background-color: #ff52;
+	padding: 5px;
+}
+
+.markdown-alert > p{
+	margin: 0;
+}
+

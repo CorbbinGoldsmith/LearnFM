@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn FM</title>
+
+    <meta name="description" content="{{description}}">
+    <meta property="article:published_time" content="{{datePublished}}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="homepage">
+    <meta property="og:title" content="LearnFM">
+    <meta property="og:description" content="Learn FM synthesis from the ground up to become a pro.">
+    <meta property="og:image" content="{{image}}">
+    <meta property="og:url" content="{{url}}">
+    <meta property="og:site_name" content="Your Site Name">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="{{title}}">
+    <meta name="twitter:description" content="{{description}}">
+    <meta name="twitter:image" content="{{image}}">
+    <meta name="twitter:url" content="{{url}}">
+    <meta name="robots" content="index, follow">
+
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/suggestedarticles.css">
+    <link rel="stylesheet" href="./css/custompatterns.css">
+</head>
+<body>
+    <header>
+
+        <a href="/">
+            <h1>Learn FM</h1>
+        </a>
+        <nav>
+            <a href="/about/">
+                <div>About</div>
+                <div class="line"></div>
+            </a>
+            <a href="/blog/">
+                <div>
+                    Blog
+                </div>
+                <div class="line"></div>
+            </a>
+            <a href="/contact/">
+                <div>
+                    Contact
+                </div>
+                <div class="line"></div>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <!-- Content will be inserted here -->
+            {{content}}
+        </article>
+        <aside>
+            <h2>Other articles</h2>
+            <div id="suggested">
+                
+                <div>
+                    
+                    <div class="square" style="background-image: url(./assets/1.1fig1.png);"></div>
+
+                </div>
+
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Corbbin Goldsmith. All rights reserved.</p>
+    </footer>
+    <script type="text/javascript" src="./js/load_articles.js"></script>
+</body>
+</html>

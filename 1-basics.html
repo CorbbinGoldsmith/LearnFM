@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basics - LearnFM</title>
+
+    <meta name="description" content="Learn the basics of FM8's capabilities and who uses it.">
+    <meta name="author" content="Your Name">
+    <meta property="article:published_time" content="June 11, 2024">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Basics">
+    <meta property="og:description" content="Learn the basics of FM8's capabilities and who uses it.">
+    <meta property="og:image" content="./assets/1.1fig1.jpg">
+    <meta property="og:url" content="./1-basics.html">
+    <meta property="og:site_name" content="Your Site Name">
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Basics">
+    <meta name="twitter:description" content="Learn the basics of FM8's capabilities and who uses it.">
+    <meta name="twitter:image" content="./assets/1.1fig1.jpg">
+    <meta name="twitter:url" content="./1-basics.html">
+    <meta name="robots" content="index, follow">
+
+    <meta name="theme-color" content="#ffffff">
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/suggestedarticles.css">
+    <link rel="stylesheet" href="./css/custompatterns.css">
+</head>
+<body>
+    <header>
+
+        <a href="/">
+            <h1>Learn FM</h1>
+        </a>
+        <nav>
+            <a href="/about/">
+                <div>About</div>
+                <div class="line"></div>
+            </a>
+            <a href="/blog/">
+                <div>
+                    Blog
+                </div>
+                <div class="line"></div>
+            </a>
+            <a href="/contact/">
+                <div>
+                    Contact
+                </div>
+                <div class="line"></div>
+            </a>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <!-- Content will be inserted here -->
+            <h1 id="section-1-basics" class="custom-heading">Section 1 - Basics</h1><h2 id="learn-the-basics-of-fm8-39-s-capabilities-and-who-uses-it-" class="custom-heading">Learn the basics of FM8&#39;s capabilities and who uses it.</h2><p>Welcome to the Basics section of the FM8 Advanced Tutorial for Ableton Live. In this section, we will lay the foundation for your understanding of FM8&#39;s fundamental features and functionalities. By mastering these basics, you&#39;ll be well-equipped to explore the more advanced synthesis techniques covered later in the tutorial.</p>
+<p>We will begin by introducing you to the operators, which are the building blocks of FM8&#39;s synthesis engine. You&#39;ll learn how to manipulate and shape the sound using the powerful envelope generators, and discover how to create intricate patches through FM8&#39;s flexible routing system.</p>
+<p>Next, we will delve into the effects section, where you can add depth, character, and polish to your sounds. We&#39;ll also explore the pitch controls, which allow you to fine-tune your patches and create expressive variations.</p>
+<p>The master section is an essential component of FM8, and we will guide you through its features, including how to control the overall volume, stereo width, and other global parameters. We&#39;ll also introduce you to the morph section, which enables you to seamlessly transition between different sound variations.</p>
+<p>Understanding the modulation matrix is key to unlocking FM8&#39;s full potential, and we will provide you with a clear explanation of how to use it to create dynamic and evolving sounds. Finally, we&#39;ll discuss key scaling, which allows you to map different parameters to the keyboard, creating expressive and playable patches.</p>
+<p>However, this tutorial isn&#39;t just about FM8. This is covering additive and FM - frequency modulation synthesis as well. </p>
+<h2 id="1-1-the-operators" class="custom-heading">1.1 - The Operators</h2><p><img src="./assets/1.1fig1.png" alt="1.1fig1"></p>
+<p>An operator refers to the part of the FM8 synthesizer that generates sound. These are parts of the synthesizer that you will be manipulating to generate unique sounds. The operators allow you to control pitch or frequency, the output waveform, whether the waveform is inverted, its position when the MIDI event triggers, its amplitude and how it connects to other controls such as pitch bend, modulation control, etc. </p>
+<p>An operator also refers to the place in which sound comes in to be manipulated before being sent out again, such as the </p>
+<p>Many synthesizers offer a wide range of waveforms to use, however the waveforms provided in FM8 are relatively limted. But, as you continue using it, the limits of the waveforms don&#39;t stop you from doing what you need to do, and you have other ways of bringing in your own waveforms as well.</p>
+<p>In FM8 these are the waveforms you have to work with:</p>
+<p><img src="./assets/1.1fig2.png" alt="1.1fig2"></p>
+<p>Here we have a few groups of waveforms we can break down, and the basic sawtooth, square, triangle and sinewave waveforms. You should already be familiar with these waveforms, but they have other properties that are important to know about for FM synthesis. </p>
+<p>Within the operators, you can control the frequency ratio, where 1 refers to the base frequency of the note being pressed, and 2 refers to 2 times the frequency, which would refer to one octave. The fine controls up to 1.0000 give you more control over the exact pitch. </p>
+<p>Offset refers to the exact pitch, in hertz, that the waveform will be offset by.</p>
+<h1 id="1-2-the-envelopes" class="custom-heading">1.2 - The Envelopes</h1><p><img src="./assets/1.2fig1.png" alt="1.2fig1"></p>
+<p>The envelopes in FM8 are quite complex, providing for a lot of customization when right clicking on the line. Here, you can control the height at T, and the bezier function that determines its curvature. Though it doesn&#39;t have a specific knob that controls the exact duration at each breakpoint of Attack, Decay, Sustain and Release, it allows you to control the exact position and snaps to the meter in &quot;Tempo Sync&quot; mode.</p>
+<p>Envelope presets can be stored and retrieved by overwriting their values in the panel, which could save you some time if you&#39;re trying to make a lot of the same envelope across all operators.</p>
+<h1 id="1-3-routing" class="custom-heading">1.3 - Routing</h1><p><img src="./assets/1.3fig1.png" alt="1.2fig1"></p>
+<p>This will be covered later in depth, but the routing allows you to control which operator that the output of any operator will be going into. Here, an operator can be passed into itself, with a small delay. The operators can also be fed back into each other after being passed through operators, allowing for very complex sounds. </p>
+<p>When you click and drag up and down on each part of the grid, you are controlling the amplitude of the operator being passed through.</p>
+<p>The values are integer values from 0-100, so there is no fine control, which can be a bit of an issue if you want to control the operators exactly from outside the synthesizer in your DAW. If you want more fine control, it&#39;s suggested that you use an envelope for exact control.</p>
+<p>1.4 Effects</p>
+<p><img src="./assets/1.4fig1.png" alt="1.2fig1"></p>
+<p>Effects in FM8 are a rack of optional effects you can add after the sound has been generated. These include reverb and delay, distortion, an amp and cabinets, as well as chorus and EQs. However, despite the options for customizing their values, they cannot be change in their order, unlike similar synthesizers. Note: they aren&#39;t very powerful, and most things should be done outside of the synth for the best results.</p>
+<p><strong>Overdrive</strong></p>
+<p>Add distortion to your sound like a guitar amp to get heavy metal sounds. This has controls drive, tone and bass. </p>
+<p><strong>Tube Amp</strong></p>
+<p>With this amplifier, you can add extra tone like an analog amplifier. It has a control for volume and drive.</p>
+<p><strong>Cabinet</strong></p>
+<p>Allows you to mimic a recording from a live performance, with 2x12s, 4x10s and 4x12 with on-axis, far, back and horn options.</p>
+<p><strong>Shelving &amp; Peak EQ</strong></p>
+<p>These provide basic controls over the EQ, but are very limited in their function. However, for most use cases, they should provide enough function to control the lows, mids and highs. </p>
+<p><strong>Talk Wah</strong></p>
+<p>Talk Wah is a common filter that provides control over which vowel sound is being formed by the sound, mimicking a mouth. The effect allows control of the size, which can make it sound smaller or larger, and it has a mouth dial that lets you control the vowel being produced.</p>
+<p><strong>Phaser</strong></p>
+<p>The FM8 phaser allows you to make other vocalish sounds, with an alien tone, but it doesn&#39;t provide much room for customization. It allows you to control the number of notches and the color, the speed that the phaser &quot;phases&quot;. It does not allow you to choose the resonance/feedback of the phases, nor its exact position, like Ableton Live&#39;s phaser.</p>
+<p><strong>Flanger</strong></p>
+<p>Flanger provides a unison-like effect, by subtracting a detuned sound from the input. This results in beating which will be explained later in this manual. </p>
+<p><strong>Tremelo</strong></p>
+<p>This tremelo uses an LFO to make a wobbling sound, and allows you to control whether is synchronized to the beat, its intensity. The width allows you to determine the width of the peak of the LFO. The attack and decay control the shape of the LFO.</p>
+<p><strong>Reverb</strong></p>
+<p>FM8&#39;s reverb provides a basic and tinny reverb for adding to your sounds. You&#39;re better off using literally any other reverb.</p>
+<p><strong>PsycheDelay</strong></p>
+<p>PhycheDelay lets you add effects on top of your delay, like detuning with granular synthesis and even reversing the sound. </p>
+<p><strong>Chorus/Delay</strong></p>
+<p>FM8&#39;s chorus is a delay. Well, technically, all chorus effects are delay. This delay allows you to provide millisecond or synchronized control on the delay.</p>
+<h1 id="1-5-pitch" class="custom-heading">1.5 Pitch</h1>
+        </article>
+        <aside>
+            <div id="nextWrapper">
+                <h2>Next Article</h2>
+                <div id="next" data-next="./2-additive-synthesis.html">
+                    
+                </div>
+            </div>
+            <h2>Other articles</h2>
+            <div id="suggested">
+                
+                <div>
+                    
+                    <div class="square" style="background-image: url(./assets/1.1fig1.png);"></div>
+
+                </div>
+
+            </div>
+        </aside>
+    </main>
+    <footer>
+        <p>&copy; 2024 Corbbin Goldsmith. All rights reserved.</p>
+    </footer>
+    <script type="text/javascript" src="./js/load_articles.js"></script>
+    <script type="text/javascript" src="./js/table_wrappers.js"></script>
+</body>
+</html>
